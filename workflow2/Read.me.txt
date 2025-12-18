@@ -1,0 +1,34 @@
+# Garden Pipe CFD Project (OpenFOAM – FreeCAD CFDOF)
+
+## Project Overview
+This project focuses on the CFD analysis of a garden pipe with multiple holes.
+The objective is to understand how volume discharge and pressure distribution
+change with different hole configurations along the pipe.
+
+## Current Work
+- The geometry and CFD setup were created using FreeCAD.
+- The mesh has been generated and written using the CFDOF plugin.
+- The mesh case files are located in this directory.
+
+## Numerical Approach
+- The CSSE (Control Surface Sensitivity Equation) approach is used for
+  analyzing flow behavior in the garden pipe.
+- This approach helps in studying discharge characteristics across
+  different control surfaces.
+
+## Future Work
+- Velocity field calculations will be performed.
+- Pressure distribution calculations will be carried out.
+- Comparison will be made for different hole positions along the pipe.
+
+## Purpose
+The garden pipe project helps in understanding how volume discharge and
+pressure discharge vary in pipes with multiple outlets.
+
+## Software Used
+- FreeCAD (CFDOF Plugin)
+- OpenFOAM
+- ParaView
+
+## Academic Note
+This project is created for academic evaluation.
